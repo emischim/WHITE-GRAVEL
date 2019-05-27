@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>OUR CLIENTS</title>
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="slide images\favicon (1).ico">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div class="topnav" id="myTopnav">
+    <a href="Contact Us.html">Contact Us</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="Our Clients.html"class="active">Our Clients</a>
+    <div class="dropdown">
+      <button class="dropbtn">Our Services
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="marinelogistics.html">Marine Logistics and Offshore Support Services</a>
+        <a href="equipment.html">Equipment Supply & Leasing Services</a>
+        <a href="houseboats.html">House Boats</a>
+        <a href="Construction Services.html">Structural And Earthwork Fabrication</a>
+      </div>
+    </div>
+    <a href="about.html">About Us</a>
+    <a href="index.html">Home</a>
+    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+  </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+
+    <div>
+      <img src="slide images\whitgravel i want my 2k.png"
+      style="max-width:100%;width: 250px;position:relative;left:0;"alt="LOGO">
+    </div>
+
+    <div class="container">
+      <h2 style="width:250px;">Our  Partners</h2>
+       <section class="customer-logos slider" style="height:300px;">
+          <div class="slide"><img src="slide images\1549827906_halliburton.png"></div>
+          <div class="slide"><img src="slide images\Shell-logo-880x660.png"></div>
+          <div class="slide"><img src="slide images\agip-scholarship.jpg"></div>
+          <div class="slide"><img src="slide images\homeland_logo_main1.png"></div>
+          <div class="slide"><img src="slide images\gremoore.PNG"></div>
+         </section>
+    </div>
+
+
+
+    <style>
+    h2{
+  text-align:center;
+  padding: 20px;
+}
+/* Slider */
+
+.slick-slide {
+    margin: 0px 20px;
+}
+
+.slick-slide img {
+    width: 150px;
+}
+
+.slick-slider
+{
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+            user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+.slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    -webkit-transform: translate3d(0, 0, 0);
+       -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+         -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+    width:1400;
+}
+.slick-track:before,
+.slick-track:after
+{
+    display: table;
+    content: '';
+}
+.slick-track:after
+{
+    clear: both;
+}
+.slick-loading .slick-track
+{
+    visibility: hidden;
+}
+
+.slick-slide
+{
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+    float: right;
+}
+.slick-slide img
+{
+    display: block;
+}
+.slick-slide.slick-loading img
+{
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+}
+.slick-loading .slick-slide
+{
+    visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+    display: none;
+}
+    * {
+      box-sizing: border-box;
+    }
+
+    /* Create two equal columns that floats next to each other */
+    .column {
+      float: left;
+      width: 50%;
+      padding: 10px;
+      height: 300px; /* Should be removed. Only for demonstration */
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+      .column {
+        width: 100%;
+      }
+    }
+
+    .BC{
+      position:relative;
+      bottom:0;
+      width:100%;
+    }
+    </style>
+
+
+    <div class="BC">
+      <div class="row">
+        <div class="column" style="background-color: #333;padding-left:100px;font-family: 'Montserrat', sans-serif;font-size:1.3rem;">
+          <h3 style="color:white;text-align:left;">GET IN TOUCH</h3>
+          <p>
+            <ul style="list-style-type: none;color:white;padding-left:0;text-align:left;">
+        <li><i style='font-size:20px;' class='fas'>&#xf3c5;</i>
+            Level 4 Suite 5 , Dominion Plaza, Igbo Efon, Lekki Expressway
+        </li>
+        <br>
+        <br><br>
+        <li><i style='font-size:20px' class='fas'>&#xf095;</i>
+          01-453-7327 , 0903-468-2348
+        </li>
+        <br>
+        <br><br>
+        <li><i style='font-size:20px' class='fas'>&#xf674;</i>
+    info@whitegravelltd.com
+        </li>
+          </p>
+        </div>
+        <div class="column" style="background-color: #333;padding-left:100px;font-family: 'Montserrat', sans-serif;font-size:1.3rem;">
+          <h3 style="color:white;text-align:left;">CONTACT US</h3>
+          <p>
+            <ul style="list-style-type: none;color:white;padding-left:0;text-align:left;">
+              <li>REGISTERED HEAD OFFICE:</li>
+              <br><br>
+              <li>Level 4 Suite 5 , Dominion Plaza</li>
+              <br>
+              <li>Igbo Efon, Lekki Expressway</li>
+              <br>
+              <li>Telephone: 01-453-7327 , 0903-468-2348 </li>
+            </ul>
+          </p>
+        </div>
+
+
+      </div>
+      <p style="background-color:#333;
+      font-family: 'Montserrat', sans-serif;
+      color: white;
+      font-size: 1rem;
+      margin:0;">
+      Copyright 2019 Whitegravel Nigeria Limited. All rights Reserved.</p>
+    </div>
+
+
+  </body>
+</html>
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+
+$(document).ready(function(){
+    $('.customer-logos').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1500,
+        arrows: false,
+        dots: false,
+        pauseOnHover: false,
+        responsive: [{
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 1
+            }
+        }, {
+            breakpoint: 520,
+            settings: {
+                slidesToShow: 2
+            }
+        }]
+    });
+});
+</script>
